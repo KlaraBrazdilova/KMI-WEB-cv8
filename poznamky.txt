@@ -1,0 +1,53 @@
+cvičení 8.
+
+začátek:
+- v úkolech používat jen to co jsme dělali na cvičení
+- dodržovat BEM metodiku
+- v případě dotazů se ptejte
+- ideální čas začít více dělat na zápočtu, klidně i průběžné úkoly
+
+hlavní část:
+nové HTML tagy - hlavně address, time, (až další hodinu - figure, figcaption)
+fonty/písmo
+- font-family
+- import fontu z google
+- font-size (výchozí 16px z toho pak počítá em)
+- font-style
+- font-weight
+- font-stretch
+- line-height
+- text-decoration
+- letter-spacing, word-spacing, white-space
+- text align, text-indent, vertical-align
+- text-shadow
+background-color: pouze u blokových elem.!
+- gradient, image, repeat, position
+- border radius
+- box-shadow
+
+obtékání: dříve pomocí float, teď používáme pseudoelementy after a before
+
+pozicování elementů: výchozí static
+	relative - relativní pozici vzhledem k normal flow, svoje místo prázdné
+	absolute - pevně k prohlížeči nebo ! prvnímu absolutnímu, relativnímu nebo fixnímu rodiči)
+	fixed -  pevně k oknu prohlížeče
+	sticky - často nav, normální a pak fixní po scrollování 
+
+ukázka:
+font - size, weight, decoration
+columns - nejvýše sloupců minimální velikosti
+before, after 
+	1) content - musí být i kdyby prázdný (často nebo obrázek)
+	2) výšky, šířky, barva, posunutí
+	3) position - absolut, relative
+position: absolute, relative - !bude na to úkol!
+
+k úkolům:
+1)
+- vhodně zvolené HTML tagy
+- CSS dělat optimálně, znovupoužitelně, nepsát zbytečnosti ! bude na tom při hodnocení kladen důraz
+
+2)
+- typografii = font, velikosti, tloušťky, barva, ...
+- !!! efektivně !!!
+- pozor na HTML tagy zase (použít i ty nové)
